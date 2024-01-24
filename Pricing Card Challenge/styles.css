@@ -1,0 +1,122 @@
+html {
+    box-sizing : border-box;
+    font-family : "Karla";
+    font-size : 16px;
+  }
+  
+  body {
+    padding : 20px;
+    /* padding : auto; */
+  }
+  h2,h4,p{
+    margin : 0px;
+  }
+  
+  *, *:before, *:after{
+    box-sizing : inherit;
+  }
+  
+  .card{
+    width : 600px;
+    height : 400px;
+    border-radius : 5px;
+    box-shadow: 2px 3px 7px 6px rgba(0,0,0,0.35);
+    overflow : hidden;
+  }
+  
+  .top-section {
+    width : 100%;
+    height : 45%;
+    padding : 25px;
+  }
+  
+  .bottom-section {
+    width : 100%;
+    height : 55%;
+    color: rgb(240,240,245);
+  }
+  
+  .bottom-left-section {
+    display : inline-block;
+    width : 50%;
+    height : 100%;
+    vertical-align : top;
+    background-color :  hsl(179, 70%, 40%);
+    padding : 25px;
+  }
+  
+  .bottom-right-section {
+    display : inline-block;
+    width : 50%;
+    height : 100%;
+    vertical-align : top;
+    background-color :  hsl(179, 70%, 45%);
+    padding : 25px;
+  }
+  
+  .top-section h2 {
+    color :  hsl(179, 69%, 30%);
+    margin-bottom : 20px;
+  }
+  
+  .top-section h4 {
+    color :   hsl(71, 73%, 54%);
+    margin-bottom : 10px;
+  }
+  
+  .top-section p {
+    color :  hsl(218, 22%, 67%);
+  }
+  
+  button {
+    background-color : hsl(71, 73%, 54%);
+    border : none;
+    width : 100%;
+    height : 40px;
+    border-radius : 8px;
+    color : white;
+    font-size : 1rem;
+  }
+  
+  button:hover 
+  {
+    transform : scale(1.1);
+    background-color : hsl(71, 73%, 30%);
+  }
+  
+  .bottom-left-section h4{
+    margin-bottom : 25px;
+  }
+  
+  #price {
+    font-weight : 700;
+    font-size : 30px;
+    display : inline-block;
+  }
+  
+  #price-frequency{
+    display : inline-block;
+    position : relative;
+    top : -5px;
+    opacity : 0.7;
+    margin-left : 5px;
+  }
+  
+  #price-container{
+    margin-bottom : 13px;
+  }
+  
+  .bottom-left-section p{
+    font-size : 0.95rem;
+    margin-bottom : 30px;
+    cursor : pointer;
+  }
+  
+  .bottom-right-section ul
+  {
+    list-style : none;
+    font-size : 0.9rem;
+    padding : 0;
+    opacity : 0.9;
+  }
+
